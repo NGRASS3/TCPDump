@@ -42,7 +42,7 @@ To start we will create our first script in VSCode with the following input:
 <img src="https://github.com/NGRASS3/TCPDump/assets/111653930/a73855c2-3282-46f8-86a4-60f9b4762008"/>
 </p>
 
-We then run the script and get the following results:
+We then run the script, create some activity by refreshing our browser and get the following results:
 <p>
 <img src="https://github.com/NGRASS3/TCPDump/assets/111653930/7ab8151b-715b-46f7-8ebd-a9a8b08204a6"/>
 </p>
