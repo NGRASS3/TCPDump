@@ -68,7 +68,7 @@ This script captures only SSH traffic, loggin it to a file named "proof.pcap". I
 
 <br />
 <p>
-Then, we will pose as an attacker and run the terminal command: ssh localhost. This will trigger SSH activity in our script. 
+Then we will pose as an attacker and run the terminal command: ssh localhost. This will trigger SSH activity in our script. 
 </p>
 <p>
 <img src="https://github.com/NGRASS3/TCPDump/assets/111653930/dc16bf20-5d72-4fe7-b2ea-47c4a0af0a68"/>
