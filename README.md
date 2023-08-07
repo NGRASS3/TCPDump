@@ -7,6 +7,8 @@ TCPDump is a command-line packet analyzer tool used in computer networking to ca
 
 With tcpdump, you can capture packets based on a variety of filters, such as source and destination IP addresses, port numbers, protocols, packet sizes, and more. This helps you focus on the specific types of traffic you're interested in. Once the packets are captured, tcpdump can display their contents in a human-readable format, providing information about the headers, payload, and other relevant details.
 
+In this project I will capture and analyze packets from a specific website, and also create a custom shell script to monitor SSH activity on a secure sandbox terminal. 
+
 
 <h2>Environments and Technologies Used</h2>
 
@@ -14,28 +16,23 @@ With tcpdump, you can capture packets based on a variety of filters, such as sou
 - TCPDump
 - Wireshark
 
-<h2>Installation Steps</h2>
+<h2>Basic TCPDump Commands used</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- sudo = to run TCPDump with admin priveleges.
+- tcpdump = run the tool to capture and analyze network packets.
+- -D = shows available network interfaces
+- i any = analyze traffic from all available network interfaces.
+- -c 10 = capture 10 packets.
+- -tttt = show packets in human readable format.
+- -# = Add a number to each packet.
+- -w test.pcap = write the data to the test.pcap file.
+- -C 1 = specify maximum size in megabytes of each capture file.
+- -G 60 = sets time intervale (ex: 1minute)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2>Capturing Website Traffic</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+
+
+
+
