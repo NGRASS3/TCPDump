@@ -58,6 +58,8 @@ For this next task we are going to assume someone is potentially trying to open 
 Our script will look as follows:
 
 <strong>sudo tcpdump port 22 -i any -#XXtttt -w proof.pcap -G 600 -C 2</strong>
+<br>
+This script captures only SSH traffic, loggin it to a file named "proof.pcap". It sets a time limit of 10 minutes and restricts the file size to 2mb.
 </p>
 
 <p>
