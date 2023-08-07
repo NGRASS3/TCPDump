@@ -57,12 +57,19 @@ For this next task we are going to assume someone is potentially trying to open 
 </p>
 Our script will look as follows:
 
-<strong>sudo tcpdump port 22 -#XXtttt -w proof.pcap -G 600 -C 2</strong>
+<strong>sudo tcpdump port 22 -i any -#XXtttt -w proof.pcap -G 600 -C 2</strong>
 </p>
 
 <p>
-<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/bc44fedf-ed8e-4a60-b3a9-7cc8e868c2f7"/>
-
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/95b77eda-3e0f-427f-bf2c-e43d0fcb6cf8"/>
 </p>
+
 <br />
+<p>
+Then, we will pose as an attacker and run the terminal command: ssh localhost. This will trigger SSH activity in our script. 
+</p>
+<p>
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/dc16bf20-5d72-4fe7-b2ea-47c4a0af0a68"/>
+</p>
+
 
