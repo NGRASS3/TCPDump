@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/f7624d3a-8319-4b8f-a905-71da934eeb79"/>
 </p>
 
 <h1>Analyze Network Traffic with TCPDump</h1>
