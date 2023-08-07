@@ -61,7 +61,7 @@ Our script will look as follows:
 </p>
 
 <p>
-<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/281bc0a4-a3ff-419c-a734-6cc9bbe16d01"/>
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/bc44fedf-ed8e-4a60-b3a9-7cc8e868c2f7"/>
 
 </p>
 <br />
