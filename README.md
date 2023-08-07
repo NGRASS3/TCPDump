@@ -3,9 +3,13 @@
 </p>
 
 <h1>Analyze Network Traffic with TCPDump</h1>
+<p>
 TCPDump is a command-line packet analyzer tool used in computer networking to capture and analyze network traffic in real-time. It allows you to inspect the packets being transmitted over a network interface, which can be incredibly useful for diagnosing network issues, monitoring network activity, and troubleshooting various network-related problems.
+</p>
 
+<p>
 With tcpdump, you can capture packets based on a variety of filters, such as source and destination IP addresses, port numbers, protocols, packet sizes, and more. This helps you focus on the specific types of traffic you're interested in. Once the packets are captured, tcpdump can display their contents in a human-readable format, providing information about the headers, payload, and other relevant details.
+</p>
 
 In this project I will create shell scripts to capture and analyze packets to a particular website. I will then create a script to monitor traffic on our SSH port. 
 
@@ -14,7 +18,7 @@ In this project I will create shell scripts to capture and analyze packets to a 
 - Cloud Desktop with Ubuntu
 - TCPDump
 - Wireshark
-- -VSCode
+- VSCode
 
 <h2>Basic TCPDump Commands used</h2>
 
@@ -34,7 +38,14 @@ In this project I will create shell scripts to capture and analyze packets to a 
 To start we will create our first script in VSCode with the following input:
 <br>
 <strong> sudo tcpdump -#XXtttt host skyroute66.com -c 10</strong>
-
+<p>
 <img src="https://github.com/NGRASS3/TCPDump/assets/111653930/a73855c2-3282-46f8-86a4-60f9b4762008"/>
+</p>
 
-Once this script is running we can refresh our browser to get some network activity going and see our results in the VSCode 
+We then run the script and get the following results:
+<p>
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/7ab8151b-715b-46f7-8ebd-a9a8b08204a6"/>
+</p>
+
+As you can see our script successfully captured data in the format we requested. It has captured 10 packets (-c 10) in a numbered, readable format (-#XXtttt). It also includes source and destination IP and the actual packet contents. 
+
