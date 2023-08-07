@@ -22,13 +22,13 @@ In this project I will create shell scripts to capture and analyze packets to a 
 
 <h2>Basic TCPDump Commands used</h2>
 
-- sudo = to run TCPDump with admin priveleges.
+- sudo = run TCPDump with admin priv.
 - tcpdump = run the tool to capture and analyze network packets.
-- -D = shows available network interfaces
+- -D = show available network interfaces
 - i any = analyze traffic from all available network interfaces.
 - -c 10 = capture 10 packets.
 - -tttt = show packets in human readable format.
-- -# = Add a number to each packet.
+- -# = add a number to each packet.
 - -w test.pcap = write the data to the test.pcap file.
 - -C 1 = specify maximum size in megabytes of each capture file.
 - -G 60 = sets time intervale (ex: 1minute)
