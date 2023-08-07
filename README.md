@@ -14,6 +14,7 @@ In this project I will create shell scripts to capture and analyze packets to a 
 - Cloud Desktop with Ubuntu
 - TCPDump
 - Wireshark
+- -VSCode
 
 <h2>Basic TCPDump Commands used</h2>
 
@@ -30,9 +31,10 @@ In this project I will create shell scripts to capture and analyze packets to a 
 
 <h2>Capturing Website Traffic</h2>
 
+To start we will create our first script in VSCode with the following input:
+<br>
+<strong> sudo tcpdump -#XXtttt host skyroute66.com -c 10</strong>
 
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/a73855c2-3282-46f8-86a4-60f9b4762008"/>
 
-
-
-
-
+Once this script is running we can refresh our browser to get some network activity going and see our results in the VSCode 
