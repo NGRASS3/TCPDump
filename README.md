@@ -48,4 +48,21 @@ We then run the script and get the following results:
 </p>
 
 As you can see our script successfully captured data in the format we requested. It has captured 10 packets (-c 10) in a numbered, readable format (-#XXtttt). It also includes source and destination IP and the actual packet contents. 
+<br>
+</br>
+<h2>Analyzing SSH Traffic</h2>
+
+<p>
+For this next task we are going to assume someone is potentially trying to open SSH sessions into our workstation. To remedy this we will create a custom script to monitor any TCP traffic coming through SSH. 
+</p>
+Our script will look as follows:
+
+<strong>sudo tcpdump port 22 -#XXtttt -w proof.pcap -G 600 -C 2</strong>
+</p>
+
+<p>
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/281bc0a4-a3ff-419c-a734-6cc9bbe16d01"/>
+
+</p>
+<br />
 
