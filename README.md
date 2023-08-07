@@ -72,4 +72,10 @@ Then, we will pose as an attacker and run the terminal command: ssh localhost. T
 <img src="https://github.com/NGRASS3/TCPDump/assets/111653930/dc16bf20-5d72-4fe7-b2ea-47c4a0af0a68"/>
 </p>
 
+<p>
+Finally, we can check our results by opening our pcap file in Wireshark. Using this information we can see what IP Address the activity is coming from and investigate the incident further.</p>
+<p>
+<img src="https://github.com/NGRASS3/TCPDump/assets/111653930/32c460e7-9a6f-4140-8322-d60e513273bf"/>
+</p>
+
 
