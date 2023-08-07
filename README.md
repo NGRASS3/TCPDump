@@ -7,8 +7,7 @@ TCPDump is a command-line packet analyzer tool used in computer networking to ca
 
 With tcpdump, you can capture packets based on a variety of filters, such as source and destination IP addresses, port numbers, protocols, packet sizes, and more. This helps you focus on the specific types of traffic you're interested in. Once the packets are captured, tcpdump can display their contents in a human-readable format, providing information about the headers, payload, and other relevant details.
 
-In this project I will capture and analyze packets from a specific website, and also create a custom shell script to monitor SSH activity on a secure sandbox terminal. 
-
+In this project I will create shell scripts to capture and analyze packets to a particular website. I will then create a script to monitor traffic on our SSH port. 
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,6 +29,7 @@ In this project I will capture and analyze packets from a specific website, and 
 - -G 60 = sets time intervale (ex: 1minute)
 
 <h2>Capturing Website Traffic</h2>
+
 
 
 
